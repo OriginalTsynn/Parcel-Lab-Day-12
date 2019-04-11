@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    link(href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet")
+    link(rel="stylesheet", href="../scss/main.scss")
+    script(src="../js/main.js")
+    title McSweeney&rsquo;s Internet Tendency
+
+#o-wrapper.o-wrapper
+  main.o-content
+    header
+      .desktop-nav
+        .search-container
+          .search
+            span.icons
+              img.search-icon(src='#')
+            form(action='/articles/search' accept-charset='UTF-8' method='get')
+              input(name='utf8' type='hidden' value='✓')
+              input#q(type='search' name='q' placeholder='Search')
+        .links-container
+          ul
+            li
+              a(href='/') Internet Tendency
+            li
+              a(href='https://store.mcsweeneys.net') The Store
+            li
+              a(href='https://store.mcsweeneys.net/t/categories/books') Books Division
+            li
+              a(href='https://store.mcsweeneys.net/t/categories/timothy-mcsweeneys-quarterly-concern') Quarterly Concern
+            li
+              a(href='/donate') Donate
+      .row
+        .masthead-left-container.desktop
+          .tagline
+            a.home-patreon(href='https://www.patreon.com/mcsweeneysinternettendency')
+              img(src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/3720/1538532886/public/patreon_buttonb.png?1538532886')
+        .logo-container
+          a(href='/')
+            .logo-text
+              span.logo-text-span
+                | M
+                span.smallcaps c
+                | Sweeney&rsquo;s
+            .logo-tagline
+              span.desktop
+                | Internet Tendency
+                br
+                br
+                strong Celebrating our 21st Year!
+              span.mobile Celebrating our 21st year of publishing daily humor almost every day.
+        .masthead-right-container.desktop
+          .tagline
+            | Daily humor
+            br
+            | almost every day
+            br
+            | since 1998.
+        .o-container.mobile
+          .c-buttons
+            button#c-button--push-top.c-button.menu-icon
+    .breaking-news-container(style='background-color: #CAE0D8;')
+      h6 BOOKS
+      .breaking-news
+        p
+          strong
+            a(href='https://www.mcsweeneys.net/articles/phoenix-a-new-mini-book-by-dave-eggers-about-his-visit-to-an-arizona-trump-rally-at-which-dozens-of-citizens-freely-carried-ar-15s-hundreds-including-the-author-were-teargassed-and-miraculously-no-one-was-killed-or-wounded')
+              | Download
+              span.caps PHOENIX
+              | , a new free mini-book by Dave Eggers
+    .container
+      .articles-container
+        .trending-today-container
+          .today-container
+            .today
+              h6 Our Latest Post
+              ul
+                li
+                  a(href='/articles/to-stop-trump-in-2020-democrats-have-to-stop-infighting-and-unite-behind-crabby-the-giant-man-eating-crab')
+                    .hed
+                      p
+                        | To Stop Trump in 2020, Democrats Have to Stop Infighting and Unite Behind Crabby, the Giant Man-Eating Crab
+                    .dek
+                      | &quot;The party simply cannot afford to be held hostage by ideological purity tests. It especially isn&rsquo;t fair to Crabby, who technically contains DNA from rhinos and sharks.&quot;
+                    .byline
+                      span.connector by
+                      | Johnathan Appel
+                li
+                  a(href='/articles/if-millennial-home-decor-could-talk')
+                    .hed
+                      p If Millennial Home D&eacute;cor Could Talk
+                    .byline
+                      span.connector by
+                      | Fanny Luor
+                      span.connector  and&nbsp;
+                      | Tyler Watamanuk
+                li
+                  a(href='/articles/we-think-the-best-person-to-discuss-racism-is-the-one-who-said-hitler-was-okay')
+                    .hed
+                      p We Think the Best Person to Discuss Racism Is the One Who Said Hitler Was Okay
+                    .dek
+                      | &quot;Racism is a real shame and we need to denounce it. And we will. We promise. But first, let&rsquo;s pass the microphone over to the lady who thinks everything Hitler did up until late 1939 was totally okay.&quot;
+                    .byline
+                      span.connector by
+                      | Bob Vulfov
+                li
+                  a(href='/articles/at-the-end-of-the-day-pinhead-and-lady-misery-simply-had-different-definitions-of-defilement-and-thats-why-shes-leaving-the-cenobite-order')
+                    .hed
+                      p
+                        | At the End of the Day, Pinhead and Lady Misery Simply Had Different Definitions of &ldquo;Defilement,&rdquo; and That&rsquo;s Why She&rsquo;s Leaving The Cenobite Order
+                    .dek
+                      | &quot;Pinhead wishes the Madame well in her future crusades of exquisite torment, but understands we must all be on the same page when it comes to moving forward in our Infernal Crusade.&quot;
+                    .byline
+                      span.connector by
+                      | Andrew Paul
+                li
+                  a(href='/articles/witch-interrogation-guide-perimenopause-quiz')
+                    .category Lists
+                    .hed
+                      p Witch Interrogation Guide/Perimenopause Quiz
+                    .dek
+                      | &quot;Have you found strange moles or extra nipples upon your body? Have they appeared suddenly?&quot;
+                    .byline
+                      span.connector by
+                      | Julie Ries
+          .trending-container
+            .trending
+              h6 Trending
+              ul
+                li
+                  a(href='/articles/attorney-general-william-barr-summarizes-famous-broadway-musicals')
+                    .postdate March 29, 2019
+                    .hed List: Attorney General William Barr Summarizes Famous Broadway Musicals
+                  .byline
+                    span.connector by
+                    | Orli Matlow
+                li
+                  a(href='/articles/things-i-wish-my-therapist-would-say-to-me-but-she-never-does')
+                    .postdate March 28, 2019
+                    .hed List: Things I Wish My Therapist Would Say to Me But She Never Does
+                  .byline
+                    span.connector by
+                    | Linda Acus
+                li
+                  a(href='/articles/supervillains-react-to-betsy-devoss-proposal-to-gut-funding-for-the-special-olympics')
+                    .postdate March 28, 2019
+                    .hed
+                      | Supervillains React to Betsy DeVos&rsquo;s Proposal to Gut Funding For the Special Olympics
+                  .byline
+                    span.connector by
+                    | Ilana Gordon
+                li
+                  a(href='/articles/responses-to-the-question-why-didnt-you-ever-have-kids')
+                    .postdate April  3, 2019
+                    .hed List: Responses to the Question, &ldquo;Why Didn&rsquo;t You Ever Have Kids?&rdquo;
+                  .byline
+                    span.connector by
+                    | Lisa Borders
+                li
+                  a(href='/articles/this-is-embarrassing-but-it-turns-out-our-fake-jewish-bagel-chain-was-funded-by-nazis')
+                    .postdate March 27, 2019
+                    .hed
+                      | This Is Embarrassing, But It Turns Out Our Fake Jewish Bagel Chain Was Funded By Nazis
+                  .byline
+                    span.connector by
+                    | Rebecca Saltzman
+                li
+                  a(href='/articles/im-vaccinating-my-child-the-natural-way-with-measles')
+                    .postdate March 28, 2019
+                    .hed I&rsquo;m Vaccinating My Child the Natural Way&mdash;With Measles
+                  .byline
+                    span.connector by
+                    | Justine Cotter
+        .news-and-books
+          .books
+            h6 Over at McSweeney&apos;s Publishing
+            ul
+              li
+                a(href='/articles/submission-call-for-mcsweeneys-quarterly-the-american-pie')
+                  .postdate March 26, 2019
+                  .thumbnail
+                    img(data-at2x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12554/1553547018/bubble_icon_2x/PZMyIsPO_400x400.jpg?1553547018' data-at3x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12554/1553547018/bubble_icon_3x/PZMyIsPO_400x400.jpg?1553547018' src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12554/1553547018/bubble_icon_2x/PZMyIsPO_400x400.jpg?1553547018' width='70' height='70')
+                  .hed
+                    | Submission Call for
+                    i McSweeney&rsquo;s Quarterly
+                    | :
+                    span.caps THE
+                    span.caps AMERICAN
+                    span.caps PIE
+                .byline
+                  span.connector by
+                  | M
+                  span(style='text-transform: none; font-variant: small-caps;') c
+                  | Sweeney&apos;s
+              li
+                a(href='/articles/phoenix-a-new-mini-book-by-dave-eggers-about-his-visit-to-an-arizona-trump-rally-at-which-dozens-of-citizens-freely-carried-ar-15s-hundreds-including-the-author-were-teargassed-and-miraculously-no-one-was-killed-or-wounded')
+                  .postdate March 22, 2019
+                  .thumbnail
+                    img(data-at2x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12492/1553198098/bubble_icon_2x/Screen_Shot_2019-03-21_at_3.53.52_PM.png?1553198098' data-at3x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12492/1553198098/bubble_icon_3x/Screen_Shot_2019-03-21_at_3.53.52_PM.png?1553198098' src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12492/1553198098/bubble_icon_2x/Screen_Shot_2019-03-21_at_3.53.52_PM.png?1553198098' width='70' height='70')
+                  .hed
+                    i Phoenix
+                    | , a New Mini-Book by Dave Eggers About His Visit to an Arizona Trump Rally, at Which Dozens of Citizens Freely Carried AR-15s, Hundreds (Including the Author) Were Teargassed, and Miraculously No One Was Killed or Wounded
+                .byline
+                  span.connector by
+                  | M
+                  span(style='text-transform: none; font-variant: small-caps;') c
+                  | Sweeney&apos;s
+              li
+                a(href='/articles/an-interview-with-leland-de-la-durantaye-about-his-novel-hannah-versus-the-tree')
+                  .postdate February  8, 2019
+                  .thumbnail
+                    img(data-at2x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12440/1552762123/bubble_icon_2x/durantaye.jpg?1552762123' data-at3x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12440/1552762123/bubble_icon_3x/durantaye.jpg?1552762123' src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12440/1552762123/bubble_icon_2x/durantaye.jpg?1552762123' width='70' height='70')
+                  .hed
+                    | McSweeney&rsquo;s Books: An Interview with Leland De La Durantaye About His Novel,
+                    i Hannah Versus the Tree
+                .byline
+                  span.connector by
+                  | Amanda Uhle
+              li
+                a(href='/articles/mcsweeneys-wins-the-2019-national-magazine-award-for-fiction')
+                  .postdate February  7, 2019
+                  .thumbnail
+                    img(data-at2x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12438/1552762042/bubble_icon_2x/220px-Gold_Ellie.jpg?1552762042' data-at3x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12438/1552762042/bubble_icon_3x/220px-Gold_Ellie.jpg?1552762042' src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12438/1552762042/bubble_icon_2x/220px-Gold_Ellie.jpg?1552762042' width='70' height='70')
+                  .hed McSweeney&rsquo;s Wins the 2019 National Magazine Award for Fiction
+                .byline
+                  span.connector by
+                  | M
+                  span(style='text-transform: none; font-variant: small-caps;') c
+                  | Sweeney&apos;s
+              li
+                a(href='/articles/an-interview-with-dave-eggers-about-his-new-novel-the-parade')
+                  .postdate February  1, 2019
+                  .thumbnail
+                    img(data-at2x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12421/1552761868/bubble_icon_2x/Untitled-1.gif?1552761868' data-at3x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12421/1552761868/bubble_icon_3x/Untitled-1.gif?1552761868' src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12421/1552761868/bubble_icon_2x/Untitled-1.gif?1552761868' width='70' height='70')
+                  .hed
+                    | An Interview With Dave Eggers About His New Novel,
+                    i The Parade
+                .byline
+                  span.connector by
+                  | Knopf
+              li
+                a(href='/articles/herve-le-tellier-from-liquid-tales')
+                  .postdate December  5, 2018
+                  .thumbnail
+                    img(data-at2x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12303/1552762208/bubble_icon_2x/Screen_Shot_2019-03-16_at_2.49.43_PM.png?1552762208' data-at3x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12303/1552762208/bubble_icon_3x/Screen_Shot_2019-03-16_at_2.49.43_PM.png?1552762208' src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12303/1552762208/bubble_icon_2x/Screen_Shot_2019-03-16_at_2.49.43_PM.png?1552762208' width='70' height='70')
+                  .hed
+                    | Oulipian Excerpts from
+                    i All That is Evident is Suspect
+                    | : Herv&eacute; Le Tellier, from
+                    i Liquid Tales
+                .byline
+                  span.connector by
+                  | Herv&eacute; Le Tellier
+              li
+                a(href='/articles/puffer-problems')
+                  .postdate December  4, 2018
+                  .thumbnail
+                    img(data-at2x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12281/1552762323/bubble_icon_2x/Screen_Shot_2019-03-16_at_2.51.06_PM.png?1552762323' data-at3x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12281/1552762323/bubble_icon_3x/Screen_Shot_2019-03-16_at_2.51.06_PM.png?1552762323' src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/12281/1552762323/bubble_icon_2x/Screen_Shot_2019-03-16_at_2.51.06_PM.png?1552762323' width='70' height='70')
+                  .hed Puffer Problems
+                .byline
+                  span.connector by
+                  | Amy Fusselman
+          .inner
+            h6
+              | News
+              span.amp &amp;
+              |  Announcements
+            ul
+              li
+                a(href='https://www.mcsweeneys.net/pages/worlds-great-musicians-donate-concert-setlists-to-benefit-youth-writing-centers')
+                  img(data-at2x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/589/1553807219/thumbnail_2x/Screen_Shot_2019-03-28_at_4.59.47_PM.png?1553807219' data-at3x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/589/1553807219/thumbnail_3x/Screen_Shot_2019-03-28_at_4.59.47_PM.png?1553807219' src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/589/1553807219/thumbnail_2x/Screen_Shot_2019-03-28_at_4.59.47_PM.png?1553807219' width='70' height='70')
+                  p World&rsquo;s Great Musicians Donate Concert Setlists to Benefit Youth Writing Centers
+              li
+                a(href='https://www.youthwriting.org/about/')
+                  img(data-at2x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/583/1550090339/thumbnail_2x/Screen_Shot_2018-11-16_at_4.38.26_PM.png?1550090339' data-at3x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/583/1550090339/thumbnail_3x/Screen_Shot_2018-11-16_at_4.38.26_PM.png?1550090339' src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/583/1550090339/thumbnail_2x/Screen_Shot_2018-11-16_at_4.38.26_PM.png?1550090339' width='70' height='70')
+                  p
+                    | Click to learn more about the International Alliance of Youth Writing Centers, a coalition of youth writing labs from around the world.
+              li
+                a(href='http://www.wbur.org/artery/2018/06/21/mcsweeneys-internet-public-radio-show')
+                  img(data-at2x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/571/1550090402/thumbnail_2x/wbur-logo.jpg?1550090402' data-at3x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/571/1550090402/thumbnail_3x/wbur-logo.jpg?1550090402' src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/571/1550090402/thumbnail_2x/wbur-logo.jpg?1550090402' width='70' height='70')
+                  p
+                    | Coming Soon: &quot;M
+                    span(style='text-transform: none; font-variant: small-caps;') c
+                    | Sweeney&rsquo;s Presents&quot; &mdash; a new radio venture with
+                    span.caps WBUR
+                    |  Boston.
+              li
+                a(href='https://www.mcsweeneys.net/pages/our-patreon-donor-virtual-wall-of-fame')
+                  img(data-at2x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/546/1549932127/thumbnail_2x/McSweeneysTendencyOldLogo.png?1549932127' data-at3x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/546/1549932127/thumbnail_3x/McSweeneysTendencyOldLogo.png?1549932127' src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/546/1549932127/thumbnail_2x/McSweeneysTendencyOldLogo.png?1549932127' width='70' height='70')
+                  p Behold the heroes on our Patreon Donor Wall of Fame!
+              li
+                a(href='https://daveeggers.net/')
+                  img(data-at2x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/555/1549932133/thumbnail_2x/Screen_Shot_2017-10-10_at_7.23.15_AM.png?1549932133' data-at3x='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/555/1549932133/thumbnail_3x/Screen_Shot_2017-10-10_at_7.23.15_AM.png?1549932133' src='https://d3thpuk46eyjbu.cloudfront.net/uploads/production/555/1549932133/thumbnail_2x/Screen_Shot_2017-10-10_at_7.23.15_AM.png?1549932133' width='70' height='70')
+                  p Also visit daveeggers.net
+        .newsletter
+          .enews
+            h2
+              | Sign up for the M
+              span.smallcaps c
+              | Sweeney&rsquo;s Monthly&nbsp;Newsletter.
+            br
+        .news-and-recent
+          .store-container
+            .store
+              h6 Over in the Store
+              ul
+                li
+                  a(href='https://store.mcsweeneys.net/products/mcsweeney-s-issue-55')
+                    .thumbnail
+                      img.no-shadow(data-at2x='https://ddkpmexz7bq23.cloudfront.net/images/production/2465/2019-02-13%2016:49:07%20-0800/tendency_2x/mcs_cover_3D2.jpg?1550105347' data-at3x='https://ddkpmexz7bq23.cloudfront.net/images/production/2465/2019-02-13%2016:49:07%20-0800/tendency_3x/mcs_cover_3D2.jpg?1550105347' src='https://ddkpmexz7bq23.cloudfront.net/images/production/2465/2019-02-13%2016:49:07%20-0800/tendency_2x/mcs_cover_3D2.jpg?1550105347' width='94' height='140')
+                    .blurb
+                      | Out now, Issue 55 gathers work from Laura van den Berg, R. O Kwon, Alexander Chee, and T Kira Madden.
+                li
+                  a(href='https://store.mcsweeneys.net/products/small-blows-against-encroaching-totalitarianism-vol-2')
+                    .thumbnail
+                      img(data-at2x='https://ddkpmexz7bq23.cloudfront.net/images/production/2459/2018-12-14%2012:55:17%20-0800/tendency_2x/small_blows_vol_two_cover_final.jpg?1544820917' data-at3x='https://ddkpmexz7bq23.cloudfront.net/images/production/2459/2018-12-14%2012:55:17%20-0800/tendency_3x/small_blows_vol_two_cover_final.jpg?1544820917' src='https://ddkpmexz7bq23.cloudfront.net/images/production/2459/2018-12-14%2012:55:17%20-0800/tendency_2x/small_blows_vol_two_cover_final.jpg?1544820917' width='86' height='140')
+                    .blurb
+                      | The second installment of our  Manifesto Series  is available for preorder. Orders will ship late January, 2019.
+                      | Since the 2016 election, reading the news each day can send even the most placid...
+                li
+                  a(href='https://store.mcsweeneys.net/products/castle-on-the-river-vistula')
+                    .thumbnail
+                      img(data-at2x='https://ddkpmexz7bq23.cloudfront.net/images/production/2460/2018-12-19%2011:32:21%20-0800/tendency_2x/castle_cover_HIRES.jpg?1545247941' data-at3x='https://ddkpmexz7bq23.cloudfront.net/images/production/2460/2018-12-19%2011:32:21%20-0800/tendency_3x/castle_cover_HIRES.jpg?1545247941' src='https://ddkpmexz7bq23.cloudfront.net/images/production/2460/2018-12-19%2011:32:21%20-0800/tendency_2x/castle_cover_HIRES.jpg?1545247941' width='100' height='134')
+                    .blurb
+                      | When Sophie Swankowski surfaces from the freezing waters, she finds herself in an ancient castle in Poland&mdash;and in the center of an ages-old battle. Even with her magical powers, the strength and...
+                li
+                  a(href='https://store.mcsweeneys.net/products/mcsweeney-s-issue-54-the-end-of-trust')
+                    .thumbnail
+                      img(data-at2x='https://ddkpmexz7bq23.cloudfront.net/images/production/2444/2018-09-25%2023:19:25%20-0700/tendency_2x/endoftrust_3D_mockup_front-02.jpg?1537942765' data-at3x='https://ddkpmexz7bq23.cloudfront.net/images/production/2444/2018-09-25%2023:19:25%20-0700/tendency_3x/endoftrust_3D_mockup_front-02.jpg?1537942765' src='https://ddkpmexz7bq23.cloudfront.net/images/production/2444/2018-09-25%2023:19:25%20-0700/tendency_2x/endoftrust_3D_mockup_front-02.jpg?1537942765' width='99' height='140')
+                    .blurb
+                      | In our first-ever entirely nonfiction issue of McSweeney&rsquo;s,
+                      i The End of Trust
+                      |  features more than thirty writers and artists investigating surveillance in the digital age.
+              .keepreading
+                a(href='https://store.mcsweeneys.net') Visit the Store
+          .recently
+            .inner
+              h6 Recent Posts
+              ul
+                li
+                  a(href='/articles/i-still-believe-every-child-is-precious-also-it-will-take-us-years-to-find-the-kids-we-stole-at-the-border')
+                    .postdate April  9, 2019
+                    .hed
+                      | I Still Believe Every Child Is Precious. Also It Will Take Us Years to Find the Kids We Stole At the Border
+                  .byline
+                    span.connector by
+                    | Rebecca Saltzman
+                li
+                  a(href='/articles/i-look-just-like-every-black-woman-youve-ever-seen')
+                    .postdate April  8, 2019
+                    .hed I Look Just Like Every Black Woman You&rsquo;ve Ever Seen
+                  .byline
+                    span.connector by
+                    | Kashana Cauley
+                li
+                  a(href='/articles/how-to-show-everyone-in-this-art-museum-you-really-fucking-appreciate-this-painting')
+                    .postdate April  8, 2019
+                    .hed
+                      | List: How to Show Everyone in This Art Museum You Really Fucking Appreciate This Painting
+                  .byline
+                    span.connector by
+                    | Carter Hambley
+                li
+                  a(href='/articles/betos-on-tables-bidens-kissing-everybody-we-need-a-woman-who-does-neither-thats-why-i-am-lying-here-on-my-stomach-ready-to-lead')
+                    .postdate April  8, 2019
+                    .hed
+                      | Beto&rsquo;s On Tables. Biden&rsquo;s Kissing Everybody. We Need a Woman Who Does Neither. That&rsquo;s Why I Am Lying Here On My Stomach, Ready to Lead
+                  .byline
+                    span.connector by
+                    | Broti Gupta
+                    span.connector  and&nbsp;
+                    | Karen Chee
+                li
+                  a(href='/articles/welcome-to-blood-fystyvyl-a-transformative-weekend-of-music-and-luxury-blood-tests-on-a-remote-island-once-owned-by-robert-blake')
+                    .postdate April  5, 2019
+                    .hed
+                      | Welcome to Blood Fystyvyl: A Transformative Weekend of Music and Luxury Blood Tests On a Remote Island Once Owned by Robert Blake
+                  .byline
+                    span.connector by
+                    | Seth Fried
+              .keepreading
+                a(href='/articles/archives') Tendency Archive
+              .keepreading
+                a(href='/columns/lists') Lists
+              .keepreading
+                a(href='/columns/open-letters-to-people-or-entities-who-are-unlikely-to-respond') Open Letters
+              .keepreading
+                a(href='/columns/short-imagined-monologues') Monologues
+              .keepreading
+                a(href='/columns') All Columns
+          .random
+            .inner
+              h5 Please engage with our brand on social media.
+              ul.socialmedialinks
+                li
+                  a.facebook(href='https://www.facebook.com/McSweeneys.Publishing/')
+                    i.fab.fa-facebook-f
+                    span Facebook
+                li
+                  a.twitter(href='https://twitter.com/mcsweeneys')
+                    i.fab.fa-twitter
+                    span Twitter
+                li
+                  a.instagram(href='https://www.instagram.com/mcswys/')
+                    i.fab.fa-instagram
+                    span Instagram
+                li
+                  a.tumblr(href='http://mcsweeneys.tumblr.com')
+                    i.fab.fa-tumblr
+                    span Tumblr
+              .contactus
+                | Or you may contact our customer service representative. She is a friendly human person.
+              ul.contact
+                li
+                  a(href='mailto:custservice@mcsweeneys.net') Email Us
+                li
+                  a(href='tel:415-642-5609') (415) 642-5609
+                li
+                  | 849 Valencia St.
+                  br
+                  | SF, CA 94110
+              .submissions
+                | Looking for submissions?
+                br
+                a(href='submission-guidelines') Right this way&mldr;
+    .friends
+      h2
+        | Friends
+        span.amp &amp;
+        |  Fellows
+      ul
+        li
+          a(href='https://voiceofwitness.org')
+            img(data-at2x='' data-at3x='' src='https://www.mcsweeneys.net/assets/friends/vow@2x-3abb0ae952c1b1903c67e0ac836ad09073cec35720ef188f5d8d360779aa7a5e.png' width='90' height='90')
+            div Voice of Witness
+        li
+          a(href='https://www.vadfoundation.org')
+            img(data-at2x='https://www.mcsweeneys.net/assets/friends/vad@2x-61c3ba377cab04919b758856f0765113ccb1694ee59e22481eaa735fdd1ed2c1.png' data-at3x='https://www.mcsweeneys.net/assets/friends/vad@3x-dd81e050e3f7f5c1b7ddc63649d2d86d7b03ea8dfff104072df8b7693e4e9872.png' src='https://www.mcsweeneys.net/assets/friends/vad@2x-61c3ba377cab04919b758856f0765113ccb1694ee59e22481eaa735fdd1ed2c1.png' width='90' height='90')
+            div The VAD Foundation
+        li
+          a(href='https://826national.org')
+            img(data-at2x='https://www.mcsweeneys.net/assets/friends/826@2x-05c12ce5be8db5b9d3f9f913817e0a824cddfeca3a19bd79dae410da05a90f7d.png' data-at3x='https://www.mcsweeneys.net/assets/friends/826@3x-6b5735d74dda6e300b5dd6a978685a0bd36b50c952d1981bd5418de8ec8782d0.png' src='https://www.mcsweeneys.net/assets/friends/826@2x-05c12ce5be8db5b9d3f9f913817e0a824cddfeca3a19bd79dae410da05a90f7d.png' width='90' height='90')
+            div 826 Tutoring Centers
+        li
+          a(href='https://scholarmatch.org')
+            img(data-at2x='https://www.mcsweeneys.net/assets/friends/scholarmatch@2x-ea201626b2c6e5b401f9b4d1f6ba102a0bafbc850b870ac2a97bca4e90bd2ac0.png' data-at3x='https://www.mcsweeneys.net/assets/friends/scholarmatch@3x-b0a10521496c818200852b8ac1417248db6e7f96eb9f197bcb6cfde2f2979083.png' src='https://www.mcsweeneys.net/assets/friends/scholarmatch@2x-ea201626b2c6e5b401f9b4d1f6ba102a0bafbc850b870ac2a97bca4e90bd2ac0.png' width='90' height='90')
+            div ScholarMatch
+        li
+          a(href='https://hutchinscenter.fas.harvard.edu/transition')
+            img(data-at2x='https://www.mcsweeneys.net/assets/friends/transition@2x-98b9294681e859de0265a2a47756a8dac03afe1978ff5678906b44a3c48e1ef7.png' data-at3x='https://www.mcsweeneys.net/assets/friends/transition@3x-d893e135b6806730f3fbec3bbb698db35b501ba275af83cec85fccdc501ee687.png' src='https://www.mcsweeneys.net/assets/friends/transition@2x-98b9294681e859de0265a2a47756a8dac03afe1978ff5678906b44a3c48e1ef7.png' width='90' height='90')
+            div Transition Magazine
+        li
+          a(href='https://www.kcrw.com/theorganist')
+            img(data-at2x='https://www.mcsweeneys.net/assets/friends/organist@2x-2e8abba3afe7a64dbe849f4534f00106b372c3a6c1fc270ef9dec769e0b40b53.png' data-at3x='https://www.mcsweeneys.net/assets/friends/organist@3x-1ea6bf336edcb8c0d2cf0bdd805af4a79ea93cb751c3935616c29b5985a7a0b8.png' src='https://www.mcsweeneys.net/assets/friends/organist@2x-2e8abba3afe7a64dbe849f4534f00106b372c3a6c1fc270ef9dec769e0b40b53.png' width='90' height='90')
+            div The Organist
+    footer
+      section
+        .mission
+          | McSweeney&rsquo;s is a publishing company based in San Francisco.
+          br
+          | As well as operating a
+          a(href='https://www.mcsweeneys.net') daily humor website
+          | , we also publish
+          em
+            a(href='https://store.mcsweeneys.net/t/categories/timothy-mcsweeneys-quarterly-concern') Timothy McSweeney&rsquo;s Quarterly Concern
+          |  and an ever-growing
+          em
+            a(href='https://store.mcsweeneys.net/t/categories/books') selection of books
+          |  under various imprints. You can buy all of these things from our
+          em
+            a(href='http://store.mcsweeneys.net/') online store
+          | . We&rsquo;re also transitioning to a nonprofit and would greatly appreciate your help. You can support us today by
+          a(href='https://store.mcsweeneys.net/t/categories/donate') making a donation
+          | .
+      section
+        ul.footer-links
+          li
+            a(href='https://www.mcsweeneys.net/') Internet Tendency
+          li
+            a(href='https://store.mcsweeneys.net') The Store
+          li
+            a(href='https://store.mcsweeneys.net/t/categories/books') Books Division
+          li
+            a(href='https://store.mcsweeneys.net/t/categories/timothy-mcsweeneys-quarterly-concern') Quarterly Concern
+          li
+            a(href='https://store.mcsweeneys.net/t/categories/donate') Donate
+          li
+            a(href='https://www.mcsweeneys.net/pages/about-us') About Us
+        //
+          <ul class="footer-links">
+          <li><a href="/pages/about-us">About Us</a></li>
+          <li><a href="/pages/jobs">Job Opportunities</a></li>
+          <li><a href="/pages/download-wajahat-alis-the-domestic-crusaders">Download Wajahat Ali&#39;s The Domestic Crusaders</a></li>
+          <li><a href="/pages/mcsweeneys-internet-tendencys-16-most-read-articles-of-2016">McSweeney&#39;s Internet Tendency&#39;s 16 Most-Read Articles of 2016</a></li>
+          <li><a href="/pages/social-media-and-events-intern">Social Media and Events Intern</a></li>
+          <li><a href="/pages/sales-and-marketing-intern">Sales and Marketing Intern</a></li>
+          <li><a href="/pages/patty-yumi-cottrell-sorry-to-disrupt-the-peace">Patty Yumi Cottrell: Sorry To Disrupt the Peace</a></li>
+          <li><a href="/pages/our-patreon-donor-virtual-wall-of-fame">Our Patreon Donor Virtual Wall of Fame</a></li>
+          <li><a href="/pages/special-call-for-submissions">Special Call for Print Quarterly Submissions</a></li>
+          <li><a href="/pages/timothy-mcsweeneys-order-and-subscription-policy">Timothy McSweeney’s Order and Subscription Policy</a></li>
+          <li><a href="/pages/daniel-gumbiner-on-tour-the-boatbuilder">Daniel Gumbiner On Tour: The Boatbuilder</a></li>
+          <li><a href="/pages/sunday-evening-poetry">Sunday Evening Poetry </a></li>
+          <li><a href="/pages/see-chimamanda-adichie-khaled-hosseini-dave-eggers-jose-antonio-vargas-chinaka-hodge-at-one-singular-event-in-san-francisco">See Chimamanda Adichie, Khaled Hosseini, Dave Eggers, Jose Antonio Vargas, and Chinaka Hodge at one singular event in San Francisco!</a></li>
+          <li><a href="/pages/our-18-most-read-articles-of-2018">Our 18 Most-Read Articles of 2018</a></li>
+          </ul>
+        ul.footer-links
+          li
+            a(href='https://www.mcsweeneys.net/pages/mcsweeneys-related-events-and-tour-dates') Events
+          li
+            a(href='https://www.mcsweeneys.net/pages/mcsweeneys-monthly-mailing-list') Email Newsletter
+          li
+            a(href='https://www.mcsweeneys.net/pages/advertise-with-us') Advertise
+          li
+            a(href='https://www.mcsweeneys.net/pages/timothy-mcsweeneys-order-and-subscription-policy') Store Policy
+          li
+            a(href='https://www.mcsweeneys.net/pages/contact-us') Contact Us
+          li
+            a(href='https://www.mcsweeneys.net/pages/mcsweeneys-internships') Internships
+          li
+            a(href='https://www.mcsweeneys.net/pages/submission-guidelines') Submission Guidelines
+      section
+        .logo
+        .fineprint
+          | Copyright &copy; 1998&ndash;2019, McSweeney&rsquo;s Publishing LLC.
+          br
+          | All Rights Reserved.
+
+  //- body
+  //-   header
+  //-     include partials/header.pug
+
+  //-   main
+  //-     include partials/breakingnews.pug
+  //-     include partials/articles.pug
+
+    //- .container-fluid
+    //-   .row banner row
+    //-   .row
+    //-     .col-3 left
+    //-     .col-6 center
+    //-     .col-3 right
